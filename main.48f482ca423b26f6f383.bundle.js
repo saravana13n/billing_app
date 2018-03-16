@@ -10799,13 +10799,15 @@ webpackJsonp([1], {
                     this.router.navigate(["/form"])
                 }, t.prototype.print = function() {
                     alert();
-                    
+                    document.addEventListener('deviceready', function(){
+                      pdf.fromURL('http://cesarvr.github.io/2015/11/20/javascript-v8.html', opts)
+                      .then((status) => console.log('success->', status))
+                      .catch((error) => console.log(error));
+                    })
                     var t, e;
                     t = document.getElementById("print-section").innerHTML, 
                         
-                    pdf.fromURL('http://cesarvr.github.io/2015/11/20/javascript-v8.html', opts)
-        .then((status) => console.log('success->', status))
-        .catch((error) => console.log(error));
+                    
 
                 }, t.prototype.resetItems = function() {
                     this.data.storage = void 0
