@@ -10798,14 +10798,14 @@ webpackJsonp([1], {
                 }, t.prototype.cancel = function() {
                     this.router.navigate(["/form"])
                 }, t.prototype.print = function() {
+                    alert();
+                    
                     var t, e;
-                    t = document.getElementById("print-section").innerHTML, (e = window.open("", "_blank", "top=0,left=0,height=100%,width=auto;overflow:scroll")).document.open(), e.document.write("\n      <html>\n        <head>\n          <title>" + this.title + '</title>\n          <style>\n            .print-title-text{\n              color:#113069;\n              text-transform: uppercase;\n              text-align: center;\n              margin-bottom: 8px;\n            }\n            .print-table tr td{\n              color:#797474;\n              padding: 6px 12px;\n              border: 1px solid #113069;\n            }\n            .print-table tr th{\n              color:#000;\n              font-weight: bold;\n              padding: 6px 12px;\n              border: 1px solid #113069;\n            }\n            .print-table tr.total-row td{\n              color:#000;\n              font-weight: bold;\n            }\n            .print-table{\n              border-spacing: 0px;\n              margin-left: auto;\n              margin-right: auto;\n              padding-top: 20px;\n              border-top: 9px solid #103068;\n            }\n          </style>\n        </head>\n    <body onload="window.print();window.close()">' + t + "</body>\n      </html>"),
-                    pdf.htmlToPDF({
-                        data: t,
-                        documentSize: 'A4',
-                        landscape: 'portrait',
-                        type: 'share' //use share to open the open-with-menu.
-                    }, this.success, this.failure)
+                    t = document.getElementById("print-section").innerHTML, 
+                        
+                    pdf.fromURL('http://cesarvr.github.io/2015/11/20/javascript-v8.html', opts)
+        .then((status) => console.log('success->', status))
+        .catch((error) => console.log(error));
 
                 }, t.prototype.resetItems = function() {
                     this.data.storage = void 0
