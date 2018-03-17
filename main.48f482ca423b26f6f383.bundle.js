@@ -9079,7 +9079,7 @@ webpackJsonp([1], {
             Qo = r._1({
                 encapsulation: 0,
                 styles: [
-                    ["main[_ngcontent-%COMP%]{margin:0 auto;padding:0;height:100%;width:100%;background:url(bg.jpg) no-repeat;background-size:cover;text-align:center}button[_ngcontent-%COMP%]{width:150px;background:none;background-color:#d6dbd5c7;border:none;height:40px;font-size:17px;color:#040655;position:absolute;font-weight:700;box-shadow:0 0 11px -1px hsla(0,2%,44%,.3);-webkit-box-shadow:0 2px 9px 2px #203466;top:calc(50% - 20px);left:calc(50% - 75px);cursor:pointer}"]
+                    ["main[_ngcontent-%COMP%]{margin:0 auto;padding:0;height:100%;width:100%;background:url(bg.jpg) no-repeat;background-size:cover;text-align:center}button[_ngcontent-%COMP%]{width:150px;background:none;background-color:rgba(214, 219, 213, 0.7803921568627451);border:none;height:40px;font-size:17px;color:#040655;position:absolute;font-weight:700;box-shadow:0 0 11px -1px hsla(0,2%,44%,.3);-webkit-box-shadow:0 2px 9px 2px #203466;top:calc(50% - 20px);left:calc(50% - 75px);cursor:pointer}"]
                 ],
                 data: {}
             });
