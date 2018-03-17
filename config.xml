@@ -24,7 +24,7 @@
         <icon src="assets/images/xhdpi.png" density="xhdpi" />
         <icon src="assets/images/xxhdpi.png" density="xxhdpi" />
         <icon src="assets/images/xxxhdpi.png" density="xxxhdpi" />
-   <splash src="drawable-land-xxhdpi-screen.png"/>
+   <splash src="assets/images/drawable-portrait-xxhdpi-screen.png"/>
 
 </platform>
        <preference name="SplashScreenDelay" value="3000" />
