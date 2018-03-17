@@ -24,7 +24,7 @@
         <icon src="asset/images/xhdpi.png" density="xhdpi" />
         <icon src="asset/images/xxhdpi.png" density="xxhdpi" />
         <icon src="asset/images/xxxhdpi.png" density="xxxhdpi" />
-         <splash src="asset/images/splash.png"/>
+         <splash src="splash.png"/>
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
