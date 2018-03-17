@@ -24,6 +24,7 @@
         <icon src="assets/images/xxhdpi.png" density="xxhdpi" />
         <icon src="assets/images/xxxhdpi.png" density="xxxhdpi" />
          <splash src="splash.png"/>
+        <preference name="SplashScreenDelay" value="5000" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
