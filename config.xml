@@ -2,10 +2,10 @@
 <widget id="com.example.hello" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Biller</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Very easy user interface to generate your bill and download PDF.
     </description>
     <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Biller Team
+        THEUPTREE
     </author>
     <content src="index.html" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
@@ -18,6 +18,12 @@
     <allow-intent href="geo:*" />
     <platform name="android">
         <allow-intent href="market:*" />
+        <icon src="asset/images/ldpi.png" density="ldpi" />
+        <icon src="asset/images/mdpi.png" density="mdpi" />
+        <icon src="asset/images/hdpi.png" density="hdpi" />
+        <icon src="asset/images/xhdpi.png" density="xhdpi" />
+        <icon src="asset/images/xxhdpi.png" density="xxhdpi" />
+        <icon src="asset/images/xxxhdpi.png" density="xxxhdpi" />
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
