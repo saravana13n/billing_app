@@ -24,18 +24,8 @@
         <icon src="assets/images/xhdpi.png" density="xhdpi" />
         <icon src="assets/images/xxhdpi.png" density="xxhdpi" />
         <icon src="assets/images/xxxhdpi.png" density="xxxhdpi" />
-        <splash density="land-ldpi" src="assets/images/drawable-land-ldpi-screen.png" />
-        <splash density="land-mdpi" src="assets/images/drawable-land-mdpi-screen.png" />
-        <splash density="land-hdpi" src="assets/images/drawable-land-hdpi-screen.png" />
-        <splash density="land-xhdpi" src="assets/images/drawable-land-xhdpi-screen.png" />
-        <splash density="land-xxhdpi" src="assets/images/drawable-land-xxhdpi-screen.png" />
-        <splash density="land-xxxhdpi" src="assets/images/drawable-land-xxxhdpi-screen.png" />
-        <splash density="port-ldpi" src="assets/images/drawable-port-ldpi-screen.png" />
-        <splash density="port-mdpi" src="assets/images/drawable-port-mdpi-screen.png" />
-        <splash density="port-hdpi" src="assets/images/drawable-port-hdpi-screen.png" />
-        <splash density="port-xhdpi" src="assets/images/drawable-port-xhdpi-screen.png" />
-        <splash density="port-xxhdpi" src="assets/images/drawable-port-xxhdpi-screen.png" />
-        <splash density="port-xxxhdpi" src="assets/images/drawable-port-xxxhdpi-screen.png" />
+   <splash src="drawable-land-xxhdpi-screen.png"/>
+
 </platform>
        <preference name="SplashScreenDelay" value="3000" />
 
