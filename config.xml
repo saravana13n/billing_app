@@ -18,11 +18,11 @@
     <allow-intent href="geo:*" />
     <platform name="android">
         <allow-intent href="market:*" />
-        <icon src="asset/images/mdpi.png" density="mdpi" />
-        <icon src="asset/images/hdpi.png" density="hdpi" />
-        <icon src="asset/images/xhdpi.png" density="xhdpi" />
-        <icon src="asset/images/xxhdpi.png" density="xxhdpi" />
-        <icon src="asset/images/xxxhdpi.png" density="xxxhdpi" />
+        <icon src="assets/images/mdpi.png" density="mdpi" />
+        <icon src="assets/images/hdpi.png" density="hdpi" />
+        <icon src="assets/images/xhdpi.png" density="xhdpi" />
+        <icon src="assets/images/xxhdpi.png" density="xxhdpi" />
+        <icon src="assets/images/xxxhdpi.png" density="xxxhdpi" />
          <splash src="splash.png"/>
     </platform>
     <platform name="ios">
