@@ -10798,13 +10798,11 @@ webpackJsonp([1], {
                 }, t.prototype.cancel = function() {
                     this.router.navigate(["/form"])
                 }, t.prototype.print = function() {
-                    alert("in");
-                    
                     var t, e,decoratedT;
                     t = document.getElementById("print-section").innerHTML, 
                         
  decoratedT = "\n      <html>\n        <head>\n          <title>" + this.title + '</title>\n          <style>\n            .print-title-text{\n              color:#113069;\n              text-transform: uppercase;\n              text-align: center;\n              margin-bottom: 8px;\n            }\n            .print-table tr td{\n              color:#797474;\n              padding: 6px 12px;\n              border: 1px solid #113069;\n            }\n            .print-table tr th{\n              color:#000;\n              font-weight: bold;\n              padding: 6px 12px;\n              border: 1px solid #113069;\n            }\n            .print-table tr.total-row td{\n              color:#000;\n              font-weight: bold;\n            }\n            .print-table{\n              border-spacing: 0px;\n              margin-left: auto;\n              margin-right: auto;\n              padding-top: 20px;\n              border-top: 9px solid #103068;\n            }\n          </style>\n        </head>\n    <body >' + t + "</body>\n      </html>",
-pdf.fromData(decoratedT, {type: "share", fileName: this.title+'-.pdf' }).then(()=>'ok').catch((err)=>console.err(err))
+pdf.fromData(decoratedT, {type: "share", fileName: this.title+'.pdf' }).then(()=>'ok').catch((err)=>console.err(err))
 
                 }, t.prototype.resetItems = function() {
                     this.data.storage = void 0
