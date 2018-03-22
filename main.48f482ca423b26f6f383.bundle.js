@@ -10420,8 +10420,8 @@ webpackJsonp([1], {
                 }, t.prototype.addItem = function() {
                     this.Items.push({
                         name: "",
-                        quantity: 1,
-                        price: 1
+                        quantity: null,
+                        price: null
                     })
                 }, t.prototype.deleteItem = function(t) {
                     if (this.Items.length > 1) {
